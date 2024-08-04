@@ -1,5 +1,7 @@
-class Sum {
-    public static void main(String[] args) {
+class Sum 
+{
+    public static void main(String[] args) 
+	{
         int a, b, sum;
         
         a = Integer.parseInt(args[0]);
