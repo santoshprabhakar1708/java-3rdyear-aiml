@@ -1,12 +1,11 @@
-class Sum 
-{
-	public static void main(String[] s)
-	{
-		int a , b , sum;
-		String[] arg;
-        a = Integer.parseInt(arg[0]);
-		b = Integer.parseInt(arg[1]);
-		int Sum = a+b ;
-		System.out.println("sum is :"); 
-	}
+class Sum {
+    public static void main(String[] args) {
+        int a, b, sum;
+        
+        a = Integer.parseInt(args[0]);
+        b = Integer.parseInt(args[1]);
+        sum = a + b;
+        
+        System.out.println("Sum is: " + sum);
+    }
 }
